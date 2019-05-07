@@ -9,4 +9,4 @@ $curl_or_wget https://raw.githubusercontent.com/chrisLanderson/MetaOmics_Worksho
 bash Miniconda3-latest-Linux-x86_64.sh -b -f -p miniconda3
 miniconda3/bin/conda env create -n omics-env -f omics_env_linux.yml
 miniconda3/bin/conda env create -n qiime2-env -f qiime2_env_linux.yml
-rm Miniconda3-latest-MacOSX-x86_64.sh
+rm Miniconda3-latest-Linux-x86_64.sh
