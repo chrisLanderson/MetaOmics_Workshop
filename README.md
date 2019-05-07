@@ -6,6 +6,12 @@
 3. Discuss how these tools fit into reproducible research and open science
 4. Discuss integration of these ideas into the Pinto lab
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 ## AEESP Workshop Test
 > > **"Getting the right tool to do things is hard and getting it installed on your system is a tough job sometimes."**
 
@@ -13,21 +19,39 @@ Goal at the workshop is to help learners overcome hurdles of getting started whe
 
 Wanted a way to distribute software to the learners that has low-overhead for them and the organizers of the workshop, but also a system that allows learners to build off what we share and use long-term.
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<p align="center"> 
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdYRptA2R0OZz3kBNM3Fp0yoGcv2AseRCGpSQTltRBbl6SQZd_8A">
+</p>
+
+
 **Anaconda**: Anaconda is an open-source distribution of the Python and R programming languages for scientific computing, that aims to simplify package management and deployment. Package versions are managed by the package management system conda.
 
 Anaconda creates a **Virtual Environment** - a named, isolated workspace - that makes it easy to separate different projects and avoid problems with different dependencies and version requirements. These environments can then be shared amongst other users to create **similar, but often not identical,** computing environments.
 
 I created Anaconda environments to share with learners at the workshop that installs many common bioiformatic tools in microbial genomics and ecology (R packages, Anvio, QIIME), with only a few commands on their end.
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 **Warning:** This will take up ~7GB of space and take ~20 minutes. Can install onto an external device.
+
+From a bash shell / terminal:
 
 ### Mac:
 
 ```console
+wget https://tinyurl.com/conda-omics-mac -O conda_install_mac.sh
 
-
-
+bash conda_install_mac.sh
 ```
 
 
