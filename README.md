@@ -1,1 +1,2 @@
-# MetaOmics_Workshop
+# Virtual Environments and Containers for Sharing Reproducible Research
+
