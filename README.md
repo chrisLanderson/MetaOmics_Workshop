@@ -4,3 +4,7 @@ src="https://asciinema.org/a/LN4SfKJ2K48NTwoxcTHumdXGb.js" id="conda-omics-mac" 
 
 <script
 src="https://gist.github.com/jonschlinkert/5854601.js"></script>
+
+</br>
+<script 
+src="https://asciinema.org/a/LN4SfKJ2K48NTwoxcTHumdXGb.js"></script> <script type="text/javascript">
