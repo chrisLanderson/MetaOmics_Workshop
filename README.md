@@ -1,7 +1,7 @@
 # AEESP 2019 Meta-Omics Workshop
-## Materials to help install the provided Anaconda virtual environments on your local computer
+## Materials to help install the provided Anaconda virtual environments on your computer
 
-The following scripts will install two Anaconda virtual environments (omics-env and qiime2-env) on your local computer. The two environments include the following software (to see a full list of software and dependencies, open the appropriate \*.yml file above):
+The following scripts will install two Anaconda virtual environments (omics-env and qiime2-env) on your computer or server. The two environments include the following software (open the appropriate \*.yml file above to see a full list of software and dependencies):
  
 **omics-env:**   
   - R 3.5 and several common R packages for data analysis
