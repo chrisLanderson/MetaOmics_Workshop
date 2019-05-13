@@ -1,7 +1,7 @@
 # AEESP 2019 Meta-Omics Workshop
 ## Materials to help install the provided Anaconda virtual environments on your local computer
 
-The following scripts will install two environments (omics-env and qiime2-env) on your local computer and includes the following software (to see a full list of software and dependencies, open the appropriate \*.yml file above):
+The following scripts will install two environments (omics-env and qiime2-env) on your local computer. The two environments include the following software (to see a full list of software and dependencies, open the appropriate \*.yml file above):
  
 **omics-env:**   
   - R 3.5 and several common R packages for data analysis
@@ -28,12 +28,12 @@ The following scripts will install two environments (omics-env and qiime2-env) o
   - BLAST
 
 **qiime2-env:**
-  - QIIME2 and associated dependencines
+  - QIIME2 and associated dependencies
 
 Installing the above software plus the dependencies will take ~7GB of storage and ~20 minutes. This can be installed on an external storage device as well. If you have any of these tools already installed on your computer, the miniconda installation script will not overwrite any existing software. During the installation, the miniconda3 directory will be created in the current working directory where you run the script. 
 
 ### Mac
-In order to download the shell script used for installation, you will need the curl command line tool. I believe this comes installed on every Mac though. I suggest running the following commands to download and run the installation script from whichever direcotry you wish to install the software.
+In order to download the shell script used for installation, you will need the curl command line tool. I believe this comes installed on every Mac though. I suggest running the following commands to download and run the installation script from whichever directory you wish to install the software.
 
 ```bash
 curl -Lo conda_install_mac.sh https://tinyurl.com/conda-omics-mac
@@ -58,7 +58,7 @@ In order to utilize the software, you must activate the environment you want to 
 miniconda3/bin/activate omics-env
 ```
 
-You will note that the name of the activated environment appears to the left of your terminal prompt. Now, the software installed in this environment is avilable to you. To list all the software available, run:
+You will note that the name of the activated environment appears to the left of your terminal prompt. Now, the software installed in this environment is available to you. To list all the software available, run:
 
 ```bash
 miniconda3/bin/conda list
@@ -87,7 +87,7 @@ Once activated, you can view the QIIME2 plugins that have been installed:
 ```bash
 qiime --help
 ```
-Deactivating an environment or closing the current terminal is recommended once you done with your current session.
+Deactivating an environment or closing the current terminal is recommended once you are done with your current session.
 
 ```bash
 miniconda3/bin/deactivate
@@ -99,7 +99,7 @@ Below is another gif demonstrating the activating and deactivating of both envir
 ![alt text](https://github.com/chrisLanderson/MetaOmics_Workshop/blob/master/mac-4.gif)
 
 ### Linux
-The installation process whill be nearly identical to those above for Mac users. The only difference is downloading a different shell script specific for installing on a Linux operating system (must be 64-bit architecture). In order to download the shell script used for installation, you will need the wget command line tool. I believe this comes installed on most Linux distributions. I suggest running the following commands to download and run the installation script from whichever direcotry you wish to install the software.
+The installation process will be nearly identical to those above for Mac users. The only difference is downloading a different shell script specific for installing on a Linux operating system (must be 64-bit architecture). In order to download the shell script used for installation, you will need the wget command line tool. I believe this comes installed on most Linux distributions. I suggest running the following commands to download and run the installation script from whichever directory you wish to install the software.
 
 ```bash
 wget https://tinyurl.com/conda-omics-linux -O conda_install_linux.sh
@@ -120,7 +120,7 @@ In order to utilize the software, you must activate the environment you want to 
 miniconda3/bin/activate omics-env
 ```
 
-You will note that the name of the activated environment appears to the left of your terminal prompt. Now, the software installed in this environment is avilable to you. To list all the software available, run:
+You will note that the name of the activated environment appears to the left of your terminal prompt. Now, the software installed in this environment is available to you. To list all the software available, run:
 
 ```bash
 miniconda3/bin/conda list
@@ -149,14 +149,14 @@ Once activated, you can view the QIIME2 plugins that have been installed:
 ```bash
 qiime --help
 ```
-Deactivating an environment or closing the current terminal is recommended once you done with your current session.
+Deactivating an environment or closing the current terminal is recommended once you are done with your current session.
 
 ```bash
 miniconda3/bin/deactivate
 ```
 
 ### Windows
-For Windows users, we suggest explore setting up a Linux environment on your computer, using another computer in your lab or department, or using a server available at your institution. Most bioinformatic tools tend not to be compatible with Windows and while Windows is supported by Anaconda, many of the common bioinformatic packages do not have recipes for Windows. This appears to be a good resource to help you get started: https://github.com/kapsakcj/win10-linux-conda-how-to.
+For Windows users, we suggest setting up a Linux environment on your computer, using another computer in your lab or department, or using a server available at your institution. Most bioinformatic tools tend not to be compatible with Windows operating systems and while Windows is supported by Anaconda, many of the common bioinformatic packages do not have recipes for Windows. This appears to be a good resource to help you get started: https://github.com/kapsakcj/win10-linux-conda-how-to.
 
 ### How do I install more software or create my own environments?
 For those seeking smaller installations or to install more software within the provided environments, I encourage you to read the excellent Anaconda documentation to install Anaconda / miniconda and learn to set up virtual environments: https://docs.anaconda.com/anaconda/. If you are still experiencing issues after going through the documentation, file an issue and I can try to help.
