@@ -87,7 +87,7 @@ Once activated, you can view the QIIME2 plugins that have been installed:
 ```bash
 qiime --help
 ```
-Deactivating an environment or closing the current terminal is recommended once you are done with your current session.
+Once you are done with your current session, you should deactivate the environment or close the terminal.
 
 ```bash
 miniconda3/bin/deactivate
@@ -149,7 +149,7 @@ Once activated, you can view the QIIME2 plugins that have been installed:
 ```bash
 qiime --help
 ```
-Deactivating an environment or closing the current terminal is recommended once you are done with your current session.
+Once you are done with your current session, you should deactivate the environment or close the terminal.
 
 ```bash
 miniconda3/bin/deactivate
