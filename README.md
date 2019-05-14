@@ -22,7 +22,7 @@ The following scripts will install two Anaconda virtual environments (omics-env 
   - Phyloseq R package
   - Vegan R package
   - DESeq2 R package
-  - EdeR R package
+  - EdgeR R package
   - Fastp
   - Quast
   - BLAST
