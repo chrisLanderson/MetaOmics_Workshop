@@ -55,7 +55,7 @@ miniconda3/bin/conda info --envs
 In order to utilize the software, you must activate the environment you want to use. Run the following command to activate the omics-env:
 
 ```bash
-miniconda3/bin/activate omics-env
+source miniconda3/bin/activate omics-env
 ```
 
 You will note that the name of the activated environment appears to the left of your terminal prompt. Now, the software installed in this environment is available to you. To list all the software available, run:
@@ -73,13 +73,13 @@ anvi-profile -h
 Two environments cannot be activated at the same time. First, you must deactivate the current environment:
 
 ```bash
-miniconda3/bin/deactivate
+source miniconda3/bin/deactivate
 ```
 
 Then, you can activate another environment:
 
 ```bash
-miniconda3/bin/activate qiime2-env
+source miniconda3/bin/activate qiime2-env
 ```
 
 Once activated, you can view the QIIME2 plugins that have been installed:
@@ -90,7 +90,7 @@ qiime --help
 Once you are done with your current session, you should deactivate the environment or close the terminal.
 
 ```bash
-miniconda3/bin/deactivate
+source miniconda3/bin/deactivate
 ```
 
 Below is another gif demonstrating the activating and deactivating of both environments:
@@ -117,7 +117,7 @@ miniconda3/bin/conda info --envs
 In order to utilize the software, you must activate the environment you want to use. Run the following command to activate the omics-env:
 
 ```bash
-miniconda3/bin/activate omics-env
+source miniconda3/bin/activate omics-env
 ```
 
 You will note that the name of the activated environment appears to the left of your terminal prompt. Now, the software installed in this environment is available to you. To list all the software available, run:
@@ -135,13 +135,13 @@ anvi-profile -h
 Two environments cannot be activated at the same time. First, you must deactivate the current environment:
 
 ```bash
-miniconda3/bin/deactivate
+source miniconda3/bin/deactivate
 ```
 
 Then, you can activate another environment:
 
 ```bash
-miniconda3/bin/activate qiime2-env
+source miniconda3/bin/activate qiime2-env
 ```
 
 Once activated, you can view the QIIME2 plugins that have been installed:
@@ -152,7 +152,7 @@ qiime --help
 Once you are done with your current session, you should deactivate the environment or close the terminal.
 
 ```bash
-miniconda3/bin/deactivate
+source miniconda3/bin/deactivate
 ```
 
 ### Windows
